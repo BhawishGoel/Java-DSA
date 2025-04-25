@@ -20,3 +20,7 @@ public class Reverse_Array {
         }
     }
 }
+
+
+// Solution : In this we apply two pointer approach {i starts from 0 , i++ and j start from end means arr.length-1, j--and then we
+// swap it
