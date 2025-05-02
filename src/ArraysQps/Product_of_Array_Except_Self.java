@@ -26,3 +26,13 @@ public class Product_of_Array_Except_Self {
         return left;
     }
 }
+
+
+/*
+How to solve it ?
+left[0]=1
+Step:1 -> find left[i] multiplication except itself
+right[n-1] = 1
+Step:2 -> Find right[i] multiplication except itself
+Step:3 -> find multiplication left * right
+*/

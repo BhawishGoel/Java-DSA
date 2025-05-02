@@ -2,8 +2,8 @@ package ArraysQps;
 
 public class Tapping_Rain_Water {
     public static void main(String[] args) {
-        int [] arr= {0,1,0,2,1,0,1,3,2,1,2,1};
-            System.out.println(Trapping(arr));
+        int[] arr = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println(Trapping(arr));
     }
     public static int Trapping(int[] arr){
         int n = arr.length;
@@ -28,5 +28,7 @@ return sum;
 // How  to solve it ?
 /*   step1: find left max
      step 2: find right max
-     step 2: find area & sum it
+     Step 3 :find area =  find the min of left max and right max through indices and then the value of minimum- its value = area
+     step 4:  sum it
+     // This concept is called prefix concept.
 */
