@@ -26,3 +26,5 @@ public class Two_Sum {
         return null;
     }
 }
+
+// we solve this quetsion by using brute force method in  which we make a nested loop means we add a loop inside loop

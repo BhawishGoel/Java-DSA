@@ -25,7 +25,7 @@ return sum;
     }
 }
 
-
+// How  to solve it ?
 /*   step1: find left max
      step 2: find right max
      step 2: find area & sum it

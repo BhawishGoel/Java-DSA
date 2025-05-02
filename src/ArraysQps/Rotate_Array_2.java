@@ -27,10 +27,12 @@ public static void Reverse(int [] arr, int i, int j) {
     }
 }
 
+
 /*
 we use reversal algorithm
 3 steps --->
-step 1--> reverse an array  {0--> n-1}
+//   K=K%n;
+step 1--> reverse an array  {0--> n-1}  means   Step:1 -> Reverse Complete Array
 step 2--> reverse from      {0--> k-1}
 step 3--> reverse from      {k--> n-1}
 */

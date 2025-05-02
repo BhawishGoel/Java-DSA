@@ -9,7 +9,7 @@ public class Rotate_Array {
             System.out.print(arr[i]+" ");
         }
     }
-    public static void RotateArray(int[] arr, int k){
+    public static void RotateArray(int[] arr, int k) {
         int n= arr.length;
          k= k%n;
          for (int j=0; j<k; j++){
@@ -21,5 +21,8 @@ public class Rotate_Array {
          }
     }
 }
+
+
+
 // o/p ---> 5 6 7 1 2 3 4  {its correct but}
 // time limit exceed in leetcode
