@@ -1,9 +1,17 @@
 package ArraysQps;
 
+import java.util.Scanner;
+
 public class Two_Sum {
     public static void main(String[] args) {
-        int[] arr = {2, 7, 5, 11};
-        int target = 9;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int []arr = new int [n];
+        for (int i=0; i< arr.length;i++){
+            arr[i] = sc.nextInt();
+        }
+        int target = sc.nextInt();
     int result[] = Sum(arr, target);
     if (result != null) {
         System.out.println(result[0]+" "+result[1]);
@@ -27,4 +35,4 @@ public class Two_Sum {
     }
 }
 
-// we solve this quetsion by using brute force method in  which we make a nested loop means we add a loop inside loop
+// we solve this question by using brute force method in  which we make a nested loop means we add a loop inside loop

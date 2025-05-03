@@ -17,6 +17,7 @@ public class Selection_Sort {
 
         }
     }
+    // for the finding the minimum index in an array
     public static int  minidx(int[] arr, int i){
 int mini = i;
 for (int j = i+ 1; j< arr.length; j++){
@@ -27,3 +28,10 @@ for (int j = i+ 1; j< arr.length; j++){
 return mini;
     }
 }
+/*
+Solve :
+
+1. Sbse phele array me se minimum value find krenge or usko index[0] se interchange krdenge   by comparing it
+2. then index[0] is set after that from index[1] we do same uper step and interchange  the value at index[1]
+3. Same step go on ....
+*/

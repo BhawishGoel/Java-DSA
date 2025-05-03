@@ -20,3 +20,10 @@ public class Bubble_Sort {
         }
     }
 }
+
+
+/*
+How to solve it ?
+Step:1 ->  sbse badi wali bubble to last me set krenge by comparing it [i, i+1]
+
+*/
